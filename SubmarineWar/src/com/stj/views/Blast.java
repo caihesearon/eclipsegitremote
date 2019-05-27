@@ -5,6 +5,8 @@ import java.awt.Graphics2D;
 import java.util.Random;
 /*
  潜艇发射的鱼雷击中战舰后爆炸的效果对象,原理：绘制多个从小到大然后从大到小的圆显示爆炸效果
+ 
+ Git测试代码
  */
 public class Blast implements Runnable
 {
