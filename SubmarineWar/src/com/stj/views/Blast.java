@@ -8,6 +8,7 @@ import java.util.Random;
  
  Git测试代码
  第二次修改
+ abc
  */
 public class Blast implements Runnable
 {
