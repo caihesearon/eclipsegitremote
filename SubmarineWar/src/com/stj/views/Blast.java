@@ -4,16 +4,17 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.util.Random;
 /*
- Ç±Í§·¢ÉäµÄÓãÀ×»÷ÖĞÕ½½¢ºó±¬Õ¨µÄĞ§¹û¶ÔÏó,Ô­Àí£º»æÖÆ¶à¸ö´ÓĞ¡µ½´óÈ»ºó´Ó´óµ½Ğ¡µÄÔ²ÏÔÊ¾±¬Õ¨Ğ§¹û
+ æ½œè‰‡å‘å°„çš„é±¼é›·å‡»ä¸­æˆ˜èˆ°åçˆ†ç‚¸çš„æ•ˆæœå¯¹è±¡,åŸç†ï¼šç»˜åˆ¶å¤šä¸ªä»å°åˆ°å¤§ç„¶åä»å¤§åˆ°å°çš„åœ†æ˜¾ç¤ºçˆ†ç‚¸æ•ˆæœ
  
- Git²âÊÔ´úÂë
+ Gitæµ‹è¯•ä»£ç 
+ ç¬¬äºŒæ¬¡ä¿®æ”¹
  */
 public class Blast implements Runnable
 {
 	private int X;  
 	private int Y;
-	private int[] r = {2,3,5,8,12,15,18,20,25,30,33,25,17,15,13,9,5}; //Ô²µÄ°ë¾¶¼¯ºÏ
-	private int   step = 0; //¼¯ºÏÖĞÔ²µÄÎ»ÖÃ±ê¼Ç
+	private int[] r = {2,3,5,8,12,15,18,20,25,30,33,25,17,15,13,9,5}; //åœ†çš„åŠå¾„é›†åˆ
+	private int   step = 0; //é›†åˆä¸­åœ†çš„ä½ç½®æ ‡è®°
 	private boolean flag = false;
 	
 	public Blast(int x,int y)
